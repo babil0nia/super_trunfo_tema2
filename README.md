@@ -1,20 +1,22 @@
-🎮 Super Trunfo - Jogo de Cartas
+# 🎮 Super Trunfo - Jogo de Cartas
 Sistema de comparação de cartas de países com múltiplos níveis de complexidade.
-📁 Estrutura do Projeto
+## 📁 Estrutura do Projeto
+```
 super_trunfo_tema2/
 ├── .vscode/              # Configurações do VS Code
 ├── aventureiro.c         # Nível intermediário (menu interativo)
 ├── mestre.c             # Nível avançado (2 atributos)
 ├── super_trunfo.c       # Implementação base
 └── README.md            # Este arquivo
-🎯 Níveis de Jogo
-🥉 Nível Básico - super_trunfo.c
+```
+##🎯 Níveis de Jogo
+### 🥉 Nível Básico - super_trunfo.c
 
 Sistema fundamental de cadastro de cartas
 Comparação básica de atributos
 Base para os níveis avançados
 
-🥈 Nível Aventureiro - aventureiro.c
+### 🥈 Nível Aventureiro - aventureiro.c
 
 Menu interativo com sistema de escolha
 Jogador seleciona 1 atributo para comparação
@@ -22,7 +24,7 @@ Implementação com switch/case
 Cálculo de densidade populacional e PIB per capita
 Interface amigável no terminal
 
-🥇 Nível Mestre - mestre.c
+### 🥇 Nível Mestre - mestre.c
 
 Comparação com 2 atributos simultâneos
 Menu dinâmico (oculta opção já escolhida)
@@ -30,8 +32,7 @@ Sistema de pontuação por soma
 Uso de operador ternário
 Lógica avançada de comparação
 
-🃏 Atributos das Cartas
-AtributoDescriçãoRegra de Vitória🏙️ PopulaçãoNúmero de habitantesMaior vence🗺️ ÁreaTerritório em km²Maior vence💰 PIBProduto Interno BrutoMaior vence🏛️ Pontos TurísticosQuantidade de atraçõesMaior vence📊 Densidade Demográficahab/km²⚠️ Menor vence
+## 🃏 Atributos das CartasAtributoRegraExemploPopulaçãoMaior vence214.000.000 habÁreaMaior vence8.515.767 km²PIBMaior vence2.055 bilhõesPontos TurísticosMaior vence100 pontosDensidade⚠️ Menor vence25.13 hab/km²
 🚀 Como Compilar
 bash# Compilar o nível básico
 gcc super_trunfo.c -o super_trunfo
@@ -41,7 +42,8 @@ gcc aventureiro.c -o aventureiro
 
 # Compilar o nível mestre
 gcc mestre.c -o mestre
-▶️ Como Executar
+## ▶️ Como Executar
+```bash
 bash# Executar nível básico
 ./super_trunfo
 
@@ -86,13 +88,14 @@ Brasil venceu em População!
 Brasil venceu em PIB!
 
 🏆 VENCEDOR FINAL: Brasil!
+```
 
-🔧 Tecnologias Utilizadas
+## 🔧 Tecnologias Utilizadas
 Linguagem: C
 Estruturas: switch, if-else, operador ternário
 Compilador: GCC
-👤 Autor
+## 👤 Autor
 Bárbara Galdino
 
-📄 Licença
+## 📄 Licença
 Projeto educacional - Livre para uso acadêmico
