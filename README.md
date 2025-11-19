@@ -32,7 +32,16 @@ Sistema de pontuação por soma
 Uso de operador ternário
 Lógica avançada de comparação
 
-## 🃏 Atributos das CartasAtributoRegraExemploPopulaçãoMaior vence214.000.000 habÁreaMaior vence8.515.767 km²PIBMaior vence2.055 bilhõesPontos TurísticosMaior vence100 pontosDensidade⚠️ Menor vence25.13 hab/km²
+## 🃏 Atributos das Cartas
+
+| Atributo | Regra | Exemplo |
+|----------|-------|---------|
+| **População** | Maior vence | 214.000.000 hab |
+| **Área** | Maior vence | 8.515.767 km² |
+| **PIB** | Maior vence | 2.055 bilhões |
+| **Pontos Turísticos** | Maior vence | 100 pontos |
+| **Densidade** | ⚠️ **Menor vence** | 25.13 hab/km² |
+
 🚀 Como Compilar
 bash# Compilar o nível básico
 gcc super_trunfo.c -o super_trunfo
